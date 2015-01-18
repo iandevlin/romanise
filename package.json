@@ -1,0 +1,20 @@
+{
+  "name": "romanise",
+  "version": "0.1.0",
+  "description": "Small library that converts decimal numbers to Roman numerals.",
+  "keywords": [
+    "romanise",
+    "decimal",
+    "roman numerals"
+  ],
+  "license": "MIT",
+  "author": "Ian Devlin <ian@iandevlin.com> (http://iandevlin.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iandevlin/romanise.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.6.0"
+  }
+}
