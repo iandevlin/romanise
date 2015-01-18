@@ -1,6 +1,6 @@
 /*! romanise - converts decimal numbers to roman numerals
 * Author: Ian Devlin, 2015
-* Version: 0.1.0
+* Version: 0.2.0
 * License: MIT
 */
 'use strict';
@@ -36,6 +36,9 @@ var romanise = {
         };
     },
     convert: function(decimal) {
+        if (decimal !== parseInt(decimal, 10)) {
+            return decimal;
+        }
         // 3,999,999 is the generally regarded as the longest number that can be represented by Roman numerals
         if (decimal <= 0 || decimal > 3999999) {
             return decimal;
